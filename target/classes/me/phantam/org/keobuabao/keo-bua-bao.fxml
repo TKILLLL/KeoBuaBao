@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="333.0" prefWidth="342.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.phantam.org.keobuabao.Controller">
+   <children>
+      <Button fx:id="keo" layoutX="14.0" layoutY="50.0" mnemonicParsing="false" onAction="#onKeoButtonClick" prefHeight="93.0" prefWidth="88.0" text="Kéo" />
+      <Button fx:id="bua" layoutX="127.0" layoutY="50.0" mnemonicParsing="false" onAction="#onBuaButtonClick" prefHeight="93.0" prefWidth="88.0" text="Búa" />
+      <Button fx:id="bao" layoutX="240.0" layoutY="50.0" mnemonicParsing="false" onAction="#onBaoButtonClick" prefHeight="93.0" prefWidth="88.0" text="Bao" />
+      <Label fx:id="res" layoutX="33.0" layoutY="185.0" prefHeight="30.0" prefWidth="275.0" text="Kết quả: ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="choice" layoutX="26.0" layoutY="215.0" prefHeight="30.0" prefWidth="290.0" text="Bạn chọn:  - Máy chọn: ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="point" layoutX="25.0" layoutY="280.0" prefHeight="30.0" prefWidth="290.0" text="Điểm: 0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
